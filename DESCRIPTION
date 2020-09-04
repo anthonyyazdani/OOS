@@ -1,0 +1,26 @@
+Package: OOS
+Title: GLM's out of sample (OOS) performances
+Version: 0.1.0
+Authors@R: 
+    person(given = "Anthony",
+           family = "Yazdani",
+           role = c("aut", "cre"),
+           email = "anthony.yazdani@etu.unige.ch",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: GLM's out of sample (OOS) performances.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    stats,
+    caret,
+    methods,
+    pbapply,
+    formula.tools,
+    snow,
+    doSNOW,
+    parallel,
+    foreach,
+    utils
